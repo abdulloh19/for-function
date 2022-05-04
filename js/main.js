@@ -24,5 +24,24 @@ const parrotTrouble = function(talking, hour) {
     }
         return false
 }
-console.log(parrotTrouble(true, 8));
+console.log(parrotTrouble(true, 7));
+
+
+const numbers = function makes10(a, b){
+    if (a == 10 || b == 10 || a + b == 10) {
+        return true
+    }
+    return false
+}
+console.log(numbers(9, 1));
+
+
+const near = function nearHundred(n){
+  if (n <= 100 && n >= 90 || n <= 200 && n >= 190) {
+    return true
+  }
+  return false
+}
+
+console.log(near(201));
 
