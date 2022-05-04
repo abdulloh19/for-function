@@ -24,6 +24,5 @@ const parrotTrouble = function(talking, hour) {
     }
         return false
 }
-console.log(parrotTrouble(true || false, 19));
+console.log(parrotTrouble(true, 8));
 
-// https://github.com/abdulloh19/for-function.git
