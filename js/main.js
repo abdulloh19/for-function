@@ -37,11 +37,11 @@ console.log(numbers(9, 1));
 
 
 const near = function nearHundred(n){
-  if (n <= 100 && n >= 90 || n <= 200 && n >= 190) {
+  if (n <= 110 && n >= 90 || n <= 210 && n >= 190) {
     return true
   }
   return false
 }
 
-console.log(near(201));
+console.log(near(111));
 
